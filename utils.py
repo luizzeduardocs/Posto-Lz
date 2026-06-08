@@ -54,6 +54,6 @@ def gerador_registros(lista):
 def calcular_total(litros, valor_litro):
     """Calcula o valor total do abastecimento."""
     # Bug corrigido:
-    # Antes o cálculo poderia dar erro porque input retorna texto.
-    # Agora os valores são convertidos para float antes do cálculo.
+    # Antes o calculo poderia dar erro porque input retorna o texto.
+    # Agora os valores são convertidos para float antes do calculo.
     return litros * valor_litro
